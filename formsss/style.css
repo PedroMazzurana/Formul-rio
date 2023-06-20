@@ -1,0 +1,59 @@
+body{
+    background-color: bisque;
+}
+
+.container{
+    
+    background-color: black;
+    width: 400px;
+    color: white;
+    padding: 60px;
+    margin-left: 36%;
+    margin-top: 15%;    
+    
+}
+
+.container-name,.container-email{
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"]{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid gray;
+}
+
+input[type="submit"]{
+    background-color: purple;
+    border: 1px solid white;
+    color: white;
+    padding: 8px 16px;
+    margin-left: 40%;
+    text-align: center;
+    cursor: pointer;
+}
+.table{
+    border-collapse: collapse;
+  	max-width: 80%;
+    width: 100%;
+    margin-top: 20px;
+  	margin-left: 50px
+}
+th, td{
+    border: 1px solid black;
+    padding: 8px;
+    background-color: rgb(226, 131, 226);
+}
+th{
+    background-color: rgb(226, 131, 226);
+    text-align: center;
+    color: black;
+}
+
+
